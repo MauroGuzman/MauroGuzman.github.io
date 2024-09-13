@@ -166,13 +166,15 @@ body{
 /*  knowledge */
 
 .knowledge{
-
-    
-    background: linear-gradient(220deg, transparent, rgb(141, 217, 247));
+    background: linear-gradient(-50deg, transparent, rgb(141, 217, 247));
     background-position: 0 0. 10px 10px;
     overflow: hidden;
     
 }
+
+
+
+
 
 .knowledge__container{
     display: grid;
@@ -191,9 +193,11 @@ body{
 }
 
 .knowledge__img{
-    width: 100%;
+    width: 90%;
     display: block;
     border-radius: 20px;
+    margin-left: auto;
+    
 } 
 
 /* PRICE  */
@@ -279,7 +283,7 @@ body{
 }
 
 .hover:hover{
-    background-color: rgb(122, 121, 121); 
+    background-color: rgb(122, 121, 121, 0.4); 
 }
 
 .cta:hover{
@@ -293,7 +297,8 @@ body{
 /* Testimony*/
 
 .testimony{
-    background: linear-gradient(220deg, transparent, rgb(141, 217, 247));
+    background: linear-gradient(-50deg, transparent, rgb(141, 217, 247));
+    border-radius: 70px;
 }
 
 .testimony__container{
@@ -362,6 +367,7 @@ body{
     transition: padding .3s;
     border: 1px solid #5454d4;
     border-radius: 6px;
+    border-radius: 50px;
 }
 
 .questions__padding--add{
@@ -569,6 +575,9 @@ body{
     .knowledge__picture{
         grid-row: 1/2;
         justify-self: center;
+        width: 100%;
+        padding-right: 35px;
+        border-radius: 50px;
     }
     .testimony__container{
         grid-template-columns: 30px 1fr 30px;
