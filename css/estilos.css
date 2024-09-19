@@ -115,6 +115,7 @@ body{
     text-decoration: none;
     padding: 13px 30px;
     box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    border: 1px solid white;
 } 
 
 .cta2{
@@ -166,7 +167,7 @@ body{
 /*  knowledge */
 
 .knowledge{
-    background: linear-gradient(-50deg, transparent, rgb(141, 217, 247));
+    background: linear-gradient(-50deg, transparent, rgb(113, 170, 194));
     background-position: 0 0. 10px 10px;
     overflow: hidden;
     
@@ -239,7 +240,7 @@ body{
     flex-wrap: wrap;
     gap: 2.5em;
     justify-content: space-evenly;
-    
+    justify-content: center;
 } 
 
 .price__element{
@@ -279,7 +280,7 @@ body{
 
 .price__cta{
     display: block;
-    padding: 20px 0;
+    padding: 20px auto;
     border-radius: 10px;
     text-decoration: none;
     background-color: var(--bg-cta);
@@ -291,7 +292,7 @@ body{
 
 .price__element--best{
     width: 370px;
-    padding: 50px 20px;
+    padding: 35px auto;
     border: 1px solid black;
     background-position: center;
     background-size: cover;
@@ -300,7 +301,7 @@ body{
     border-radius: 20px;
     box-shadow: 13px 13px 20px rgb(15, 15, 15);
     font-style: italic;
-    background: linear-gradient(-50deg, transparent, rgb(141, 217, 247));
+    background: linear-gradient(-50deg, transparent, rgb(113, 170, 194));
 }
 .marcas{
     padding: 10px;
