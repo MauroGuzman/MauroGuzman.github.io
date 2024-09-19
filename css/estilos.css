@@ -309,8 +309,8 @@ body{
     
 }
 .marcas__container{
-    padding-bottom: 15px;
-    font-size: 18px;
+    padding: 8px;
+    font-size: 15px;
     font-weight: bolder;
     justify-content: left;
     color: var(--color-title)
