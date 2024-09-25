@@ -578,6 +578,7 @@ html {
         display: block;
     }
 
+    /*
     .nav__link--menu{
         position: fixed;
         background-color: #000;
@@ -599,7 +600,8 @@ html {
         --show:block;
         opacity: 1;
         pointer-events: unset;
-    } 
+    }  
+        
 
     .nav__close{
         position: absolute;
@@ -608,6 +610,7 @@ html {
         width: 30px;
         cursor: pointer;
     } 
+        */
 
     .hero__tittle{
         font-size: 2.5rem;
