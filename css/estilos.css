@@ -25,6 +25,7 @@ body{
     display: grid;
     grid-template-rows: 100px 1fr; 
     color: white;
+    
 } 
 
 .hero::before{
@@ -39,6 +40,7 @@ body{
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
+    
 } 
 
 /* nav */
@@ -167,7 +169,7 @@ body{
 /*  knowledge */
 
 .knowledge{
-    background: linear-gradient(-50deg, transparent, rgb(113, 170, 194));
+    background: linear-gradient(-50deg, transparent, rgba(113, 170, 194, 0.527));
     background-position: 0 0. 10px 10px;
     overflow: hidden;
     
@@ -299,9 +301,9 @@ body{
     content: "";
     z-index: -1;
     border-radius: 20px;
-    box-shadow: 13px 13px 20px rgb(15, 15, 15);
+    box-shadow: 13px 13px 20px rgb(161, 159, 159);
     font-style: italic;
-    background: linear-gradient(-50deg, transparent, rgb(113, 170, 194));
+    background: linear-gradient(-50deg, transparent, rgba(113, 170, 194, 0.438));
 }
 .marcas{
     padding: 10px;
@@ -412,6 +414,8 @@ body{
     border: 1px solid #5454d4;
     border-radius: 6px;
     border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .questions__padding--add{
@@ -561,6 +565,10 @@ body{
 .footer__img{
     width: 30px;
 } 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*Dispositivos Moviles*/ 
 
