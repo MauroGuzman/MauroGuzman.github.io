@@ -4,7 +4,11 @@
     --padding-container: 100px 0;
     --color-title: #022970;
 }
-
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "Poppins", sans-serif;
 }
